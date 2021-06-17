@@ -1,41 +1,39 @@
-/* Navigation */
-#navbar{
+#navbar {
     flex-direction: column;
 }
-#navbar ul li a{
+
+#navbar ul li a {
     font-size: 1.1rem;
     padding: 4px 18px;
-    
 }
-#logo img{
+
+#logo img {
     height: 80px;
     margin: 11px 32px;
 }
 
 
-
-
-
 /* Home section */
-#home{
+
+#home {
     height: 247px;
-    padding: 47px 21px;;
+    padding: 47px 21px;
+    ;
 }
-#home::before{
+
+#home::before {
     height: 480px;
 }
-#home p{
+
+#home p {
     font-size: 18px;
 }
 
 
-
-
-
 /* services section */
-#services{
-    flex-direction: column;
 
+#services {
+    flex-direction: column;
 }
 
 #services .box {
@@ -49,79 +47,83 @@
 }
 
 
-
-
 /*  client section*/
-#client{
+
+#client {
     flex-wrap: wrap;
-
-
 }
-#client img{
+
+#client img {
     width: 155px;
-   
 }
+
+
 /* devloper section */
-#devloper{
+
+#devloper {
     position: relative;
     padding: 31px 11px;
-    
 }
-#me{
+
+#me {
     display: flex;
     flex-direction: column;
 }
-.meinfo p{
+
+.meinfo p {
     padding: 10px 10px;
     font-size: 25px;
     text-align: left;
 }
-.meinfo h2{
-    
+
+.meinfo h2 {
     padding: 10px 0px;
 }
-.meinfo h1{
-    
+
+.meinfo h1 {
     padding: 24px 0px;
 }
-.meinfo p{
+
+.meinfo p {
     text-align: center;
     padding: 22px 0px;
 }
-.meimg img{
+
+.meimg img {
     height: 350px;
     width: 350px;
     border-radius: 30px;
-
 }
 
-#me .h-primary{
+#me .h-primary {
     padding: 0px;
 }
 
 
-
 /* contact section */
-#contact-box{
+
+#contact-box {
     padding-bottom: 0px;
     margin: 0px 0px 0px -22px;
-
 }
-#contact::before{
+
+#contact::before {
     position: relative;
     margin: 80px 30px 10px 4px;
     width: 348px;
     height: 356px;
 }
+
 #contact-box form {
     width: 77%;
 }
 
 
-
 /* Footer */
 
+
 /* utility classes */
-.h-primary{
+
+.h-primary {
     font-size: 32px;
 }
