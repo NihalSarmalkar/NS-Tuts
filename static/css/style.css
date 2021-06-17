@@ -339,15 +339,15 @@ body .container .card {
 }
 
 body .container .card:nth-child(1) .box .content a {
-    background: #2196f3;
+    background: #737374;
 }
 
 body .container .card:nth-child(2) .box .content a {
-    background: #e91e63;
+    background: #737374;
 }
 
 body .container .card:nth-child(3) .box .content a {
-    background: #23c186;
+    background: #737374;
 }
 
 body .container .card .box {
@@ -428,7 +428,6 @@ body .container .card .box .content a:hover {
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 500px;
     margin: auto;
     text-align: center;
@@ -463,4 +462,3 @@ button:hover,
 a:hover {
     opacity: 0.7;
 }
-
